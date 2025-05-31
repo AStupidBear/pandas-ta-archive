@@ -9,6 +9,7 @@ Project-URL: Repository, https://github.com/twopirllc/pandas-ta
 Keywords: library,technical analysis,ta,indicators,pandas,dataframe extension,finance,trading,machine learning,ai
 Classifier: Development Status :: 4 - Beta
 Classifier: Private :: Do Not Upload
+Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
 Classifier: Programming Language :: Python :: 3.13
@@ -21,7 +22,7 @@ Classifier: Topic :: Office/Business :: Financial
 Classifier: Topic :: Office/Business :: Financial :: Investment
 Classifier: Topic :: Scientific/Engineering
 Classifier: Topic :: Scientific/Engineering :: Information Analysis
-Requires-Python: >=3.12
+Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: numba>=0.60.0
