@@ -159,10 +159,11 @@ def v_scalar(var: IntFloat, default: Optional[IntFloat] = 1) -> Float:
 
 def v_series(series: Series, length: Optional[IntFloat] = 0) -> Optional[Series]:
     """Returns None if the series does not meet the required minimum length."""
-    if series is not None and isinstance(series, Series):
-        if series.size >= v_pos_default(length, 0):
-            return series
-    return None
+    return series
+    # if series is not None and isinstance(series, Series):
+    #     if series.size >= v_pos_default(length, 0):
+    #         return series
+    # return None
 
 
 def v_str(var: str, default: str) -> str:
